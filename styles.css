@@ -1,0 +1,68 @@
+.form{
+  width: 30px;
+  height: 47px;
+  border-style: solid;
+  background-color: gray;
+  margin: 10px;
+  padding: 0%;
+}
+button {
+  width: 30px;
+  height: 10px;
+}
+#decrementOctaveToDisplay{
+  font-size: 8px;
+}
+
+
+#finalDisplay {
+  background-color: white;
+  border-style: solid;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 1%;
+  bottom: 0px;;
+}
+#amplitudeDisplay {
+  background-color: white;
+  border-style: solid;
+  bottom: 66%;
+  height: 30%;
+  width: 40%;
+  right: 2%;
+  margin: 0px;
+  position: absolute;
+}
+#octaveDisplay{
+  background-color: white;
+  border-style: solid;
+  margin: 0px;
+  position: absolute;
+  bottom: 33%;
+  right: 2%;
+  width: 40%;
+  height: 30%;
+}
+#randomNoise {
+  background-color: white;
+  border-style: solid;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  right: 2%;
+  width: 40%;
+  height: 30%;
+}
+#randomNoiseLabel {
+  color:black;
+  position: absolute;
+  bottom: 25%;
+  right: 35%;
+}
+
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}

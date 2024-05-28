@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <a href="/p5 Noise Function/index.html" target="_blank">p5.js Implentation</a>
+  <canvas id="randomNoise" height="300px" width="300px"></canvas>
+  <div id="randomNoiseLabel">Random Seed</div>
+  <canvas id="octaveDisplay" height="300px" width="300px"></canvas>
+  <div id="octaveDisplayLabel">Octaves</div>
+  <canvas id="amplitudeDisplay" height="300px" width="300px"></canvas>
+  <div id="amplitudeDisplayLabel">Octaves wih amplitude</div>
+  <canvas id="finalDisplay" height="300px" width="300px"></canvas>
+  <div id="finalDisplayLabel">Add them all together</div>
+  <button id="runButton" onclick="setup();">Run</button>
+  <div id="octaveToDisplayForm" class="form">
+    <button id="incrementOctaveToDisplay" onclick="incrementOctaveToDisplay();">^</button><span id="octaveFormNumber">0</span>
+    <button id="decrementOctaveToDisplay" onclick="decrementOctaveToDisplay();">\/</button>
+  </div>
+  <div id="persistenceForm" class="form">
+    <button id="incrementPersistenceForm" onclick="incrementpersistenceForm()"></button><span id="persistenceFormNumber">0.5</span>
+    <button id="decrementPersistenceForm" onclick="decrementpersistenceForm()"></button>
+  </div>
+  <div id="octavesForm" class="form">
+    <button id="incrementoctavesForm" onclick="incrementoctavesForm()"></button><span id="octavesFormNumber">5</span>
+    <button id="decrementoctavesForm" onclick="decrementoctavesForm()"></button>
+  </div>
+  <div id="pointsForm" class="form">
+    <button id="incrementpointsForm" onclick="incrementpointsForm()"></button><span id="pointsFormNumber">16</span>
+    <button id="decrementpointsForm" onclick="decrementpointsForm()"></button>
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
